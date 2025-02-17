@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+header {
+    background-color: #f8b6c2;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6f91;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#gallery {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    text-align: center;
+    height: 50vh; 
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adds spacing between icon and text */
+    transition: 0.3s;
+}
+
+.social-links a i {
+    font-size: 20px; /* Icon size */
+}
+
+.social-links a:hover {
+    background-color: #e60073;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
